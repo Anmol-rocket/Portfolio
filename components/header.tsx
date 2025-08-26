@@ -71,16 +71,20 @@ export default function Header() {
 
   // Smooth scroll to section when clicking nav items
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault()
-    const targetId = href.substring(1)
-    const element = document.getElementById(targetId)
+    e.preventDefault();
+    const targetId = href.substring(1);
+    const element = document.getElementById(targetId);
     if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 80, // Offset for header height
-        behavior: "smooth",
-      })
-      setActiveSection(targetId)
-      if (isOpen) setIsOpen(false)
+      if (isOpen) {
+        setIsOpen(false);
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+          setActiveSection(targetId);
+        }, 300); // Wait for menu to close (matches animation duration)
+      } else {
+        element.scrollIntoView({ behavior: "smooth" });
+        setActiveSection(targetId);
+      }
     }
   }
 
