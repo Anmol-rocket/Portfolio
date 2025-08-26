@@ -194,7 +194,10 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  onClick={(e) => scrollToSection(e, item.href)}
+                  onClick={(e) => {
+                    scrollToSection(e, item.href);
+                    setIsOpen(false); // Close mobile menu after click
+                  }}
                   className={cn(
                     "text-sm font-medium transition-colors py-2 px-3 rounded-md",
                     isActive
