@@ -103,7 +103,7 @@ export default function Hero() {
               <Link href="#contact">Get In Touch</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full bg-transparent">
-              <a href="http://localhost:3000/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>
