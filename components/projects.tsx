@@ -53,6 +53,14 @@ export default function Projects() {
         "Agent Performance: Analysis of agent efficiency based on calls handled and average handling time."
       ],
     },
+    {
+      title: "🚀 Rocket-UI",
+      description:
+        "A next-gen CSS library for fast, responsive, and accessible web interfaces. Features modular components, utility classes, instant CDN integration, and offline cache support for seamless user experiences.",
+      tags: ["CSS", "CDN", "Offline Cache", "Responsive", "Accessible"],
+      codeLink: "https://github.com/Anmol-rocket/Rocket-UI",
+      liveLink: null,
+    },
   ]
 
   return (
@@ -111,20 +119,12 @@ export default function Projects() {
                           <Github className="mr-1 h-4 w-4" /> Code
                         </Link>
                       </Button>
-                      {project.liveLink && (
-                        <Button size="sm" variant="outline" asChild>
-                          <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="mr-1 h-4 w-4" /> Live
-                          </Link>
-                        </Button>
-                      )}
                     </div>
                   </CardContent>
                 </Card>
               </div>
             ))}
           </div>
-
         </div>
       </div>
     </section>
