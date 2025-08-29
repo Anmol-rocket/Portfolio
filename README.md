@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Portfolio
-=======
+
 # Anmol Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Showcases achievements, experience, education, open-source work, and more in a visually appealing and interactive way.
