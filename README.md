@@ -52,4 +52,4 @@ For feedback or collaboration, reach out via the contact form on the website.
 ---
 
 > Crafted with ❤️ by Anmol. Inspired by modern web design and open-source spirit.
->>>>>>> 80b6b76 (initial)
+
