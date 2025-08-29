@@ -21,13 +21,13 @@ export default function Education() {
                     <GraduationCap className="h-8 w-8 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold">B.Tech., Computer Science</h3>
+                    <h3 className="text-xl font-bold">B.Tech., Computer Science and Engineering</h3>
                     <p className="text-muted-foreground">Indian Institute of Information Technology, Kota (Aug 2023 -- Jul 2027)</p>
                   </div>
                 </div>
                 <div className="p-6">
                   <ul className="text-muted-foreground space-y-2">
-                    <li><strong>12<sup>th</sup></strong> — Chetan International School, Mathura — 90.4% (Apr 2022 -- Apr 2023)</li>
+                    <li><strong>12<sup>th</sup></strong> — Chetan International School, Mathura — 90.4%</li>
                     <li><strong>10<sup>th</sup></strong> — St. Francis Inter College, Hathras — 93.2%</li>
                   </ul>
                 </div>
