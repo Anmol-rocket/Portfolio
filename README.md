@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Portfolio
-=======
-
 # Anmol Portfolio
 
 [![Live Portfolio](https://img.shields.io/badge/Live%20Site-anmolxportfolio.netlify.app-brightgreen?style=for-the-badge)](https://anmolxportfolio.netlify.app)
