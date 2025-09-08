@@ -61,6 +61,22 @@ export default function Projects() {
       codeLink: "https://github.com/Anmol-rocket/Rocket-UI",
       liveLink: null,
     },
+    {
+      title: "Anime Data Cleaning and Analysis",
+      description:
+        "Processes and analyzes an anime dataset using Python and pandas. Includes data cleaning, feature extraction, and visualization to gain insights into anime series based on episodes, duration, and popularity.",
+      tags: ["Python", "Pandas", "Numpy", "Matplotlib", "Data Cleaning", "Visualization"],
+      codeLink: "https://github.com/Anmol-rocket/Anime-Data-Cleaning-and-Analysis",
+      liveLink: null,
+      image: "/anime_data_analysis.png",
+      highlights: [
+        "Cleans and preprocesses anime data from CSV.",
+        "Extracts episodes, telecast duration, and member count from raw titles.",
+        "Calculates duration in months and removes invalid entries.",
+        "Exports cleaned data to CSV and generates multiple visualizations (episodes, duration, members).",
+        "Identifies and visualizes top 5 anime by episodes, duration, and members."
+      ],
+    }
   ]
 
   return (
