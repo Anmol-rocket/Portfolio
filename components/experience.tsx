@@ -5,6 +5,23 @@ import Skills from "./skills-content"
 export default function Experience() {
   const experiences = [
     {
+      title: (
+        <span className="flex items-center gap-2">
+          <span className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" aria-hidden="true"></span>
+          App Development — FastFood Vendor Onboarding App
+        </span>
+      ),
+      company: "Startup (Vendor Onboarding Platform)",
+      period: "Nov 2025 - Present",
+      location: "Remote",
+      achievements: [
+        "Building a mobile app to onboard fast-food vendors so they can sell via the platform and reach city-wide customers.",
+        "Providing consumers with seamless ordering, payment, and delivery experiences by integrating payments and delivery logistics.",
+        "Leading development and vendor pilot onboarding — currently in active development (vendor integration and user onboarding)."
+      ],
+      tags: ["product", "mobile", "in-progress"]
+    },
+    {
       title: "Oddo",
       company: "Odoo Hackathon Finalist",
       period: "August 2025",
